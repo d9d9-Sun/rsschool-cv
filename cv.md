@@ -16,7 +16,7 @@ I am freelancer. Currently working as Digital Marketing Specialist. I have two d
 * SEO, PPC, SMM.
 * HTML, CSS, PHP.
 
-## Experince
+## Experience
 ---
 * Digital Marketing Specialist
   * Freelance
