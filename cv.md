@@ -49,3 +49,16 @@ I am freelancer. Currently working as Digital Marketing Specialist. I have two d
 * SEO specialist
   * Alekira
   * Oct 2011 - Dec 2012
+
+## Education
+---
+* **Belarussian State Pedagogial University**
+  * teacher of history and English
+* **School of Business and Management of Technology of BSU**
+  * manager economist
+
+## Languages
+---
+* **English** - Upper Intermediate
+* **Belarus** - Upper Intermediate
+* **Russian** - Native
