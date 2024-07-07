@@ -1,10 +1,153 @@
 /* version 1.0 */
 
+@font-face {
+    font-family: BebasNeue;
+    src: url("fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: graphiklcg;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav,
+footer {
+    font-family: BebasNeue;
+}
+
+.nav {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.nav-item a {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #4d2323;
+}
+
+.top-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 40%;
+}
+
+.contacts-block {
+    width: 60%;
+}
+
+.photo img {
+    width: 90%;
+}
+
+.job-title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ul li ul {
+    text-transform: none;
+    font-weight: 100;
+}
+
+.code-example {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+pre {
+    width: 100%;
+}
+
+.java-red {
+    color: #f3505c;
+}
+
+.java-green {
+    color: #00ff2f;
+}
+
+.java-aqua {
+    color: #00f0ff;
+}
+
+.java-blue {
+    color: #368aec;
+}
+
+.java-purple {
+    color: #d867c6;
+}
+
+.java-yellow {
+    color: #e5d381;
+}
+
+#pet-project {
+    margin: 50px auto;
+}
+
+footer .container {
+    border-top: 1px solid #000000;
+    font-size: 22px;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.copyright {
+    align-self: center;
+    width: 90%;
+}
+
+.rs-school-logo {
+    width: 10%;
 }
