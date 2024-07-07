@@ -1,10 +1,69 @@
 /* version 1.0 */
 
+@font-face {
+    font-family: BebasNeue;
+    src: url("fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: graphiklcg;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+nav,
+footer {
+    font-family: BebasNeue;
+}
+
+.nav {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.nav-item a {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #4d2323;
 }
