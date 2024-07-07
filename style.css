@@ -87,3 +87,46 @@ footer {
 .photo img {
     width: 90%;
 }
+
+.job-title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ul li ul {
+    text-transform: none;
+    font-weight: 100;
+}
+
+.code-example {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+pre {
+    width: 100%;
+}
+
+.java-red {
+    color: #f3505c;
+}
+
+.java-green {
+    color: #00ff2f;
+}
+
+.java-aqua {
+    color: #00f0ff;
+}
+
+.java-blue {
+    color: #368aec;
+}
+
+.java-purple {
+    color: #d867c6;
+}
+
+.java-yellow {
+    color: #e5d381;
+}

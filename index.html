@@ -139,7 +139,45 @@
                   <li><strong>Russian</strong> - Native</li>
                 </ul>
             </div>
-            
+
+            <div class="code-examples" id="code-examples">
+                <h2>Code Examples</h2>
+                <div class="code-example">
+                  <pre><code>
+                <span class="java-red">public class</span> <span class="java-green">Homework17</span> {
+                  <span class="java-red">public static void</span> <span class="java-aqua">main</span>(<span class="java-green">String</span>[] args) {
+                    <span class="java-green">Candies</span>[] gift = <span class="java-red">new</span> <span class="java-aqua">Candies</span>[<span class="java-blue">6</span>];
+                      gift[<span class="java-blue">0</span>] = <span class="java-red">new</span> <span class="java-aqua">ChupaChups</span>(<span class="java-blue">3</span>);
+                      gift[<span class="java-blue">1</span>] = <span class="java-red">new</span> <span class="java-aqua">KinderSurprise</span>(<span class="java-blue">1</span>);
+                      gift[<span class="java-blue">2</span>] = <span class="java-red">new</span> <span class="java-aqua">Liquorice</span>(<span class="java-blue">15</span>);
+                      gift[<span class="java-blue">3</span>] = <span class="java-red">new</span> <span class="java-aqua">Skittles</span>(<span class="java-blue">5</span>);
+                      gift[<span class="java-blue">4</span>] = <span class="java-red">new</span> <span class="java-aqua">Toffee</span>(<span class="java-blue">10</span>);
+                      gift[<span class="java-blue">5</span>] = <span class="java-red">new</span> <span class="java-aqua">Toblerone</span>(<span class="java-blue">2</span>);
+
+                      <span class="java-red">double</span> maxSugar = <span class="java-green">Integer</span>.<span class="java-purple">MIN_VALUE</span>;
+                      <span class="java-green">String</span> maxSugarCandie = <span class="java-red">null</span>;
+                      <span class="java-red">double</span> totalWeight = <span class="java-blue">0</span>;
+                      <span class="java-red">for</span> (<span class="java-red">int</span> i = <span class="java-blue">0</span>; i &lt; gift.<span class="java-purple">length</span>; i++) {
+                          <span class="java-red">if</span> (gift[i].<span class="java-aqua">sugar</span>() > maxSugar) {
+                              maxSugar = gift[i].<span class="java-aqua">sugar</span>();
+                              maxSugarCandie = gift[i].<span class="java-aqua">getCandie</span>();
+                          }
+                          totalWeight += gift[i].<span class="java-aqua">getWeight</span>();
+                      }
+
+                      <span class="java-green">System</span>.<span class="java-purple">out</span>.<span class="java-aqua">println</span>(
+                        <span class="java-yellow">"Конфета с максимальным содержанием сахара: "</span>
+                        + maxSugarCandie
+                        + <span class="java-yellow">". Содержание сахара: "</span>
+                        + maxSugar
+                      );
+                      <span class="java-green">System</span>.<span class="java-purple">out</span>.<span class="java-aqua">println</span>(<span class="java-yellow">"Общий вес подарка: "</span> + totalWeight);
+                      }
+                  }
+                  </code></pre>
+                </div>
+            </div>
+
         </div>
     </main>
 </body>
