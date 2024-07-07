@@ -31,6 +31,11 @@ body {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 nav,
 footer {
     font-family: BebasNeue;
@@ -66,4 +71,21 @@ footer {
 
 .nav-item a:hover {
     color: #4d2323;
+}
+
+.top-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 40%;
+}
+
+.contacts-block {
+    width: 60%;
+}
+
+.photo img {
+    width: 90%;
 }
