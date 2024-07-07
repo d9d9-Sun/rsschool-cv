@@ -134,3 +134,20 @@ pre {
 #pet-project {
     margin: 50px auto;
 }
+
+footer .container {
+    border-top: 1px solid #000000;
+    font-size: 22px;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.copyright {
+    align-self: center;
+    width: 90%;
+}
+
+.rs-school-logo {
+    width: 10%;
+}
